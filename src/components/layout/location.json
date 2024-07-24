@@ -1,0 +1,30 @@
+{
+  "collectionName": "components_layout_locations",
+  "info": {
+    "displayName": "location"
+  },
+  "options": {},
+  "attributes": {
+    "description": {
+      "type": "blocks",
+      "required": true
+    },
+    "map": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false,
+      "required": true
+    },
+    "near_to_places": {
+      "displayName": "near_places",
+      "type": "component",
+      "repeatable": true,
+      "component": "elements.near-places"
+    }
+  }
+}

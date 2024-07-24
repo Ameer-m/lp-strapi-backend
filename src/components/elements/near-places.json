@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_elements_near_places",
+  "info": {
+    "displayName": "near_places"
+  },
+  "options": {},
+  "attributes": {
+    "subheading": {
+      "type": "string",
+      "required": true
+    },
+    "heading": {
+      "type": "string"
+    }
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "collectionName": "components_elements_test_lists",
+  "info": {
+    "displayName": "Test List"
+  },
+  "options": {},
+  "attributes": {
+    "Subheading": {
+      "type": "string",
+      "required": true
+    }
+  }
+}

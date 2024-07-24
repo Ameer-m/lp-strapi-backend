@@ -1,0 +1,54 @@
+{
+  "collectionName": "components_layout_hero_1s",
+  "info": {
+    "displayName": "Hero 1",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "Title": {
+      "type": "string",
+      "required": true
+    },
+    "background_image_desktop": {
+      "type": "media",
+      "multiple": false,
+      "required": true,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "background_image_mobile": {
+      "type": "media",
+      "multiple": false,
+      "required": true,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "List": {
+      "displayName": "Test List",
+      "type": "component",
+      "repeatable": true,
+      "component": "elements.test-list"
+    },
+    "selling_points": {
+      "type": "component",
+      "repeatable": true,
+      "component": "elements.test-list"
+    },
+    "starting_price": {
+      "type": "string",
+      "required": true
+    },
+    "cta_button": {
+      "displayName": "cta_button",
+      "type": "component",
+      "repeatable": false,
+      "component": "elements.cta-button"
+    },
+    "project_highlight": {
+      "type": "string"
+    }
+  }
+}

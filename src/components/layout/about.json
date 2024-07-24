@@ -1,0 +1,23 @@
+{
+  "collectionName": "components_layout_abouts",
+  "info": {
+    "displayName": "about"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "Description": {
+      "type": "blocks",
+      "required": true
+    },
+    "icon_box": {
+      "displayName": "icon_box",
+      "type": "component",
+      "repeatable": true,
+      "component": "elements.icon-box"
+    }
+  }
+}

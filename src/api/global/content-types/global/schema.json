@@ -1,0 +1,56 @@
+{
+  "kind": "singleType",
+  "collectionName": "globals",
+  "info": {
+    "singularName": "global",
+    "pluralName": "globals",
+    "displayName": "Global ",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Title": {
+      "type": "string",
+      "required": true
+    },
+    "Description": {
+      "type": "text",
+      "required": true
+    },
+    "Navbar": {
+      "displayName": "Nav Bar",
+      "type": "component",
+      "repeatable": false,
+      "component": "layout.nav-bar"
+    },
+    "hero": {
+      "type": "component",
+      "repeatable": false,
+      "component": "layout.hero-1"
+    },
+    "about": {
+      "type": "component",
+      "repeatable": false,
+      "component": "layout.about",
+      "required": true
+    },
+    "download_brochure": {
+      "type": "component",
+      "repeatable": false,
+      "component": "layout.download-brochure"
+    },
+    "location": {
+      "displayName": "location",
+      "type": "component",
+      "repeatable": false,
+      "component": "layout.location"
+    },
+    "Design": {
+      "type": "integer",
+      "required": true
+    }
+  }
+}

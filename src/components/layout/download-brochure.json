@@ -1,0 +1,23 @@
+{
+  "collectionName": "components_layout_download_brochures",
+  "info": {
+    "displayName": "Download Brochure"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "brochure_image": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false,
+      "required": true
+    }
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "collectionName": "components_layout_nav_bars",
+  "info": {
+    "displayName": "Nav Bar",
+    "icon": "layout"
+  },
+  "options": {},
+  "attributes": {
+    "Logolink": {
+      "type": "component",
+      "repeatable": false,
+      "component": "elements.logo-link"
+    },
+    "Logo": {
+      "type": "component",
+      "repeatable": true,
+      "component": "elements.logo"
+    }
+  }
+}
